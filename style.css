@@ -259,6 +259,7 @@ header > div {
 }
 
 .grey_container {
+    margin-bottom: 40px;
     background-color: #f4f2f2 ;
     text-align: center;
     padding: 40px 0;
@@ -283,6 +284,11 @@ header > div {
     font-weight: 400;
 }
 
+.possibilities_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
 
 
 
